@@ -62,4 +62,6 @@ ssh-copy-id root@(private ip of dev-2)
 ```
 Now You Can Login Master --> Node
 To check worker node connection with ansible server.
+```bash
 ansible -m ping all
+```
