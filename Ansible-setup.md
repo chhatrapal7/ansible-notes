@@ -35,17 +35,6 @@ systemctl status sshd
 hostname -i  -- to see the private ip
 ```
 
-## Inventory file
-
-```bash
-vi /etc/ansible/hosts
-[prod]
-172.31.20.40  --> pvt ips of prod1
-172.31.21.25  --> pvt ips of prod2
-[dev]
-172.31.31.77  --> pvt ips of dev1
-172.31.22.114 --> pvt ips of dev2
-```
 
 ## Go to Ansible Master
 --------------------
@@ -60,6 +49,19 @@ ssh-copy-id root@(private ip of dev-1)
 ssh-copy-id root@(private ip of dev-2)
 
 ```
+
+## Inventory file
+
+```bash
+vi /etc/ansible/hosts
+[prod]
+172.31.20.40  --> pvt ips of prod1
+172.31.21.25  --> pvt ips of prod2
+[dev]
+172.31.31.77  --> pvt ips of dev1
+172.31.22.114 --> pvt ips of dev2
+```
+
 Now You Can Login Master --> Node
 To check worker node connection with ansible server.
 ```bash
