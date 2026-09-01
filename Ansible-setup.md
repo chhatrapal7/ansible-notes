@@ -62,6 +62,11 @@ vi /etc/ansible/hosts
 172.31.22.114 --> pvt ips of dev2
 ```
 
+You can login Master ---> Node without key
+```bash
+ssh root@(private ip of node)
+```
+
 Now You Can Login Master --> Node
 To check worker node connection with ansible server.
 ```bash
