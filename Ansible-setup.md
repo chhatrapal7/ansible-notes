@@ -18,8 +18,8 @@ run this command in all Server
 ```bash
 sudo -i 
 ```
-Now Root user from ansible server needs to login to all servers using root username and password
-Do below commands in all servers using multi-exec (MobaXterm)
+## Now Root user from ansible server needs to login to all servers using root username and password
+## Do below commands in all servers using multi-exec (MobaXterm)
 
 ## first set the password for root
 ```bash
